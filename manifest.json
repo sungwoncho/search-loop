@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Highlight by poll",
+  "name": "Search Loop",
   "version": "0.1",
   "description" : "Keeps finding and highlighting a string in a page",
   "content_scripts": [
@@ -16,8 +16,5 @@
   "browser_action": {
     "default_icon": "logo.png",
     "default_popup": "menu.html"
-  },
-  "permissions": [
-    "storage"
-  ]
+  }
 }
